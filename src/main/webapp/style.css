@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: verdana, sans-serif;
+}
+
+/* Header */
+
+#header {
+	color: white;
+	background-color: black;
+	margin: 0;
+	padding: 5px;
+}
+
+#userPanel {
+	position: absolute;
+	right: 20px;
+    top: 2.5em;
+	}
+
+#account-panel {
+	position: absolute;
+	right: 15px;
+}
+
+/* End Header */
+
+/* Global Links */
+
+a:link {color:#0000FF;}      /* unvisited link */
+a:visited {color:#0000FF;}  /* visited link */
+a:hover {color:#0000FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+/* End Global Links */
+
+
+/* Navigation Bar */
+#navigation-bar {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	
+#navigation-bar li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+	
+/* End Navigation Bar */
+
+
+

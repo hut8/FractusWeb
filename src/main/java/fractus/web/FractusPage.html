@@ -1,0 +1,37 @@
+<html
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Fractus</title>
+</head>
+<body>
+	<div id="header">
+		<h1>Fractus</h1>
+		<span wicket:id="userPanel"></span>
+			<wicket:fragment wicket:id="logged-in">
+			<span wicket:id="username">[username]</span>
+				| <a wicket:id="logout">Log Out</a> </wicket:fragment>
+				<wicket:fragment wicket:id="logged-out">
+					<wicket:link>
+						<a href="RegisterAccount.html">Register</a> | <a href="Login.html">Log In</a>
+					</wicket:link>
+				</wicket:fragment>
+	</div>
+
+	<ul id="navigation-bar">
+		<wicket:link>
+			<li><a href="HomePage.html">Home</a>
+			</li>
+			<li><a href="Download.html">Download</a>
+			</li>
+			<li><a href="Account.html">Account</a>
+			</li>
+			<li><a href="Contact.html">Contact</a>
+			</li>
+		</wicket:link>
+	</ul>
+	<div>
+		<wicket:child />
+	</div>
+</body>
+</html>
