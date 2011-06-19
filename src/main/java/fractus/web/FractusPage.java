@@ -9,6 +9,7 @@ import org.apache.wicket.model.PropertyModel;
 public abstract class FractusPage extends WebPage {
 	public FractusPage() {
 		super();
+		
         // UserPanel (authentication)
 		Fragment userPanel = null;
 		// Logged in:

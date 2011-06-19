@@ -25,6 +25,10 @@ public class FractusApplication extends WebApplication
 		
 		// Configuration
 		getRequestLoggerSettings().setRequestLoggerEnabled(true);
+		getMarkupSettings().setStripWicketTags(true);
+		getMarkupSettings().setStripComments(true);
+		getMarkupSettings().setDefaultAfterDisabledLink("");
+		getMarkupSettings().setDefaultBeforeDisabledLink("");
 	}
 	
 	@Override

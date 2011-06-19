@@ -12,44 +12,62 @@ body {
 	margin: 0;
 	padding: 5px;
 }
+#header h1 {
+	margin:0;
+	padding:0;
+}
 
 #userPanel {
 	position: absolute;
 	right: 20px;
-    top: 2.5em;
-	}
-
-#account-panel {
-	position: absolute;
-	right: 15px;
+    top: 1.5em;
 }
 
+#userPanel a:link {
+	color: #ffffff;
+	text-decoration: none;
+	}
+#userPanel a:visited {
+	color: #ffffff;
+	text-decoration: none;
+	}
+#userPanel a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	}
+#userPanel a:active {
+	color: #ffffff;
+	text-decoration: underline;
+	}
 /* End Header */
 
 /* Global Links */
-
 a:link {color:#0000FF;}      /* unvisited link */
 a:visited {color:#0000FF;}  /* visited link */
 a:hover {color:#0000FF;}  /* mouse over link */
 a:active {color:#0000FF;}  /* selected link */
-
 /* End Global Links */
 
 
 /* Navigation Bar */
 #navigation-bar {
-	display: inline;
 	margin: 0;
-	padding: 0;
+	padding: 5px;
+	width: 100%;
+	background-color: #dddddd;
 	}
 	
 #navigation-bar li {
 	display: inline;
 	margin: 0;
-	padding: 0;
-	}
-	
+	padding: 10px;
+	}	
 /* End Navigation Bar */
 
-
+/* Main content section */
+#content {
+	padding: 10px;
+	background-color: #f0f0f0;
+}
+/* End main content section*/
 
